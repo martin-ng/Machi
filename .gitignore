@@ -1,3 +1,2 @@
 /.vscode/
-/secrets
-secrets
+secrets.py
