@@ -1,2 +1,4 @@
 /.vscode/
 secrets.py
+.idea
+__pycache__
