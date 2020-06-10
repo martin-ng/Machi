@@ -47,8 +47,8 @@ async def on_ready():
 #         pass
 
 @bot.command()
-# example bot command that adds two numbers
 async def add(ctx, *args):
+    # bot command that adds two numbers
     argLength = len(args)
     if argLength < 1:
         return 0
@@ -56,6 +56,11 @@ async def add(ctx, *args):
     for num in args:
         sumOfArgs += num
     await ctx.send(f'The sum is {sumOfArgs}')
+
+
+@bot.command()
+async def average(ctx, *args):
+    return sum(args)/len(args)
 
 
 @bot.command()
@@ -73,4 +78,4 @@ async def questions(ctx, *, question):
 async def kick(ctx, member: discord.Member, *, reason=None):
     await member.kick(reason=reason)
 
-client.run(TOKEN)
+bot.run(TOKEN)

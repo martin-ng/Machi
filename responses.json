@@ -1,0 +1,57 @@
+{
+  "answers": [
+    {
+      "tag": "greetings",
+      "requests": [
+        "Hi",
+        "Hello",
+        "Hello?",
+        "Hello mate",
+        "Good Morning",
+        "Whats up",
+        "Whats good",
+        "Whats popping"
+      ],
+      "responses": [
+        "Hey!",
+        "Welcome back",
+        "Hey there!",
+        "Can I be of any help?",
+        "Are you good?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "requests": [
+        "Goodbye",
+        "Bye",
+        "Peace",
+        "Sayonara",
+        "Adios",
+        "ja na",
+        "ja ne"
+      ],
+      "responses": [
+        "Don't go!",
+        "Bye..",
+        "Goodbye..",
+        "Can I tempt you to stay longer?"
+      ]
+    },
+    {
+      "tag": "name",
+      "requests": ["What is your name?", "your name?", "omae na wa", "name??"],
+      "responses": ["My name is Martin", "Martin!!", "I'm Martin"]
+    },
+    {
+      "tag": "age",
+      "requests": ["How old are you?", "age?"],
+      "responsese:": ["28..", "Too old.."]
+    },
+    {
+      "tag": "tsum tsum",
+      "requests": ["You guys want to play!?", "lets play", "tsums leggo!!"],
+      "response": ["leggo!!!", "lest play something"]
+    }
+  ]
+}
